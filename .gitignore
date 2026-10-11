@@ -1,0 +1,61 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Distribution / packaging
+.eggs/
+dist/
+build/
+*.egg-info/
+
+# Virtual environments
+venv/
+env/
+.venv/
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Large data files (NetCDF, heavy CSVs)
+*.nc
+*.h5
+*.hdf5
+*.npy
+*.npz
+
+# Model artifacts
+*.pkl
+*.joblib
+*.cbm
+catboost_info/
+
+# Output figures (regenerable)
+outputs/figures/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# NASA dataset folder (too large for GitHub)
+Fani_Rainfall_Prediction/nasa dataset/
+
+# Old/duplicate PDFs
+Fani_Rainfall_Prediction/Cyclone_Fani_Perfect_IEEE_Paper_v*.pdf
+Fani_Rainfall_Prediction/Cyclone_Fani_Ultimate_IEEE_Transactions_Paper.pdf
+Fani_Rainfall_Prediction/Cyclone_Fani_Official_IEEE_2Column_Conference_Paper.pdf
+Fani_Rainfall_Prediction/Cyclone_Fani_IEEE_Transactions_Journal_Paper.pdf
+
+# Large HTML notebooks
+Fani_Rainfall_Prediction/*.html
+
+# All PDFs in subdirectory (keep only root-level paper)
+Fani_Rainfall_Prediction/*.pdf
